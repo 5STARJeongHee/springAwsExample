@@ -1,0 +1,14 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!--index.js 추가-->
+<script src="/js/app/index.js"></script> <!--지금까지 /로 경로가 시작한 이유는 src/main/resources/static에 위치한 정적 파일들의 url이 /로 설정되어 있기 때문-->
+
+</body>
+<!--
+css 파일을 앞에서 부르고 js 파일을 뒤에서 부르는 이유는 페이지 로딩속도를 높이기 위함
+html은 위에서 부터 코드가 실행되는데 js 처럼 용량이 큰 파일이 head에서 로딩되게 되면 head가 다 실행되고 나서야 body를 실행하게 되고
+body가 만들어져야 화면이 보이는데 로딩이 안되서 백지만 보여지게 됨
+
+-->
+</html>

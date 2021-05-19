@@ -1,0 +1,10 @@
+com/boot/practice/springAwsExample/web/dto/HelloResponseDtoTest.java
+ com.boot.practice.springAwsExample.web.dto.HelloResponseDtoTest
+com/boot/practice/springAwsExample/web/HelloControllerTest.java
+ com.boot.practice.springAwsExample.web.HelloControllerTest
+com/boot/practice/springAwsExample/domain/posts/PostsRepositoryTest.java
+ com.boot.practice.springAwsExample.domain.posts.PostsRepositoryTest
+com/boot/practice/springAwsExample/web/PostsApiControllerTest.java
+ com.boot.practice.springAwsExample.web.PostsApiControllerTest
+com/boot/practice/springAwsExample/web/IndexControllerTest.java
+ com.boot.practice.springAwsExample.web.IndexControllerTest
