@@ -1,29 +1,53 @@
 com/boot/practice/springAwsExample/domain/BaseTimeEntity.java
  com.boot.practice.springAwsExample.domain.BaseTimeEntity
-com/boot/practice/springAwsExample/domain/posts/Posts.java
- com.boot.practice.springAwsExample.domain.posts.Posts
- com.boot.practice.springAwsExample.domain.posts.Posts$PostsBuilder
-com/boot/practice/springAwsExample/Application.java
- com.boot.practice.springAwsExample.Application
+com/boot/practice/springAwsExample/web/PostsApiController.java
+ com.boot.practice.springAwsExample.web.PostsApiController
 com/boot/practice/springAwsExample/domain/posts/PostsRepository.java
  com.boot.practice.springAwsExample.domain.posts.PostsRepository
+com/boot/practice/springAwsExample/web/IndexController.java
+ com.boot.practice.springAwsExample.web.IndexController
+com/boot/practice/springAwsExample/config/auth/dto/OAuthAttributes.java
+ com.boot.practice.springAwsExample.config.auth.dto.OAuthAttributes
+ com.boot.practice.springAwsExample.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/boot/practice/springAwsExample/config/auth/dto/SessionUser.java
+ com.boot.practice.springAwsExample.config.auth.dto.SessionUser
 com/boot/practice/springAwsExample/web/dto/PostsUpdateRequestDto.java
  com.boot.practice.springAwsExample.web.dto.PostsUpdateRequestDto
  com.boot.practice.springAwsExample.web.dto.PostsUpdateRequestDto$PostsUpdateRequestDtoBuilder
-com/boot/practice/springAwsExample/web/dto/PostsListResponseDto.java
- com.boot.practice.springAwsExample.web.dto.PostsListResponseDto
+com/boot/practice/springAwsExample/config/auth/SecurityConfig.java
+ com.boot.practice.springAwsExample.config.auth.SecurityConfig
+com/boot/practice/springAwsExample/domain/user/User.java
+ com.boot.practice.springAwsExample.domain.user.User
+ com.boot.practice.springAwsExample.domain.user.User$UserBuilder
+com/boot/practice/springAwsExample/service/posts/PostsService.java
+ com.boot.practice.springAwsExample.service.posts.PostsService
+com/boot/practice/springAwsExample/config/auth/CustomOAuth2UserService.java
+ com.boot.practice.springAwsExample.config.auth.CustomOAuth2UserService
 com/boot/practice/springAwsExample/web/dto/PostsSaveRequestDto.java
  com.boot.practice.springAwsExample.web.dto.PostsSaveRequestDto
  com.boot.practice.springAwsExample.web.dto.PostsSaveRequestDto$PostsSaveRequestDtoBuilder
+com/boot/practice/springAwsExample/config/auth/LoginUserArgumentResolver.java
+ com.boot.practice.springAwsExample.config.auth.LoginUserArgumentResolver
+com/boot/practice/springAwsExample/config/WebConfig.java
+ com.boot.practice.springAwsExample.config.WebConfig
+com/boot/practice/springAwsExample/domain/user/UserRepository.java
+ com.boot.practice.springAwsExample.domain.user.UserRepository
 com/boot/practice/springAwsExample/web/HelloController.java
  com.boot.practice.springAwsExample.web.HelloController
 com/boot/practice/springAwsExample/web/dto/PostsResponseDto.java
  com.boot.practice.springAwsExample.web.dto.PostsResponseDto
+com/boot/practice/springAwsExample/domain/user/Role.java
+ com.boot.practice.springAwsExample.domain.user.Role
 com/boot/practice/springAwsExample/web/dto/HelloResponseDTO.java
  com.boot.practice.springAwsExample.web.dto.HelloResponseDTO
-com/boot/practice/springAwsExample/web/PostsApiController.java
- com.boot.practice.springAwsExample.web.PostsApiController
-com/boot/practice/springAwsExample/web/IndexController.java
- com.boot.practice.springAwsExample.web.IndexController
-com/boot/practice/springAwsExample/service/posts/PostsService.java
- com.boot.practice.springAwsExample.service.posts.PostsService
+com/boot/practice/springAwsExample/web/dto/PostsListResponseDto.java
+ com.boot.practice.springAwsExample.web.dto.PostsListResponseDto
+com/boot/practice/springAwsExample/domain/posts/Posts.java
+ com.boot.practice.springAwsExample.domain.posts.Posts
+ com.boot.practice.springAwsExample.domain.posts.Posts$PostsBuilder
+com/boot/practice/springAwsExample/config/auth/LoginUser.java
+ com.boot.practice.springAwsExample.config.auth.LoginUser
+com/boot/practice/springAwsExample/Application.java
+ com.boot.practice.springAwsExample.Application
+com/boot/practice/springAwsExample/config/JpaConfig.java
+ com.boot.practice.springAwsExample.config.JpaConfig
