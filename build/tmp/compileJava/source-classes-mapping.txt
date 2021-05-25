@@ -2,8 +2,8 @@ com/boot/practice/springAwsExample/domain/BaseTimeEntity.java
  com.boot.practice.springAwsExample.domain.BaseTimeEntity
 com/boot/practice/springAwsExample/web/PostsApiController.java
  com.boot.practice.springAwsExample.web.PostsApiController
-com/boot/practice/springAwsExample/domain/posts/PostsRepository.java
- com.boot.practice.springAwsExample.domain.posts.PostsRepository
+com/boot/practice/springAwsExample/Application.java
+ com.boot.practice.springAwsExample.Application
 com/boot/practice/springAwsExample/web/IndexController.java
  com.boot.practice.springAwsExample.web.IndexController
 com/boot/practice/springAwsExample/config/auth/dto/OAuthAttributes.java
@@ -47,7 +47,7 @@ com/boot/practice/springAwsExample/domain/posts/Posts.java
  com.boot.practice.springAwsExample.domain.posts.Posts$PostsBuilder
 com/boot/practice/springAwsExample/config/auth/LoginUser.java
  com.boot.practice.springAwsExample.config.auth.LoginUser
-com/boot/practice/springAwsExample/Application.java
- com.boot.practice.springAwsExample.Application
 com/boot/practice/springAwsExample/config/JpaConfig.java
  com.boot.practice.springAwsExample.config.JpaConfig
+com/boot/practice/springAwsExample/domain/posts/PostsRepository.java
+ com.boot.practice.springAwsExample.domain.posts.PostsRepository
