@@ -19,9 +19,13 @@ before_install: # gradlew에 실행권한이 없어 travis에서 권한을 미�
 
 
 before_deploy:
-  - zip -r springAwsExample *
-  - mkdir -p deploy
-  - mv springAwsExample.zip deploy/
+  - mkdir -p before-deploy # zip에 포함시킬 파일들을 담을 디렉토리 생성
+  - cp sripts/*.sh before-deploy/
+  - cp appspec.yml before-deploy/
+  - cp build/libs/*.jar before-deploy/
+  - cd before-deploy && zip -r before-deploy * # before-deploy로 이동 후 전체 압축
+  - cd ../ && mkdir -p deploy # 상위 디렉토리로 이동후 deploy 디렉토리 생성
+  - mv before-deploy/before-deploy.zip deploy/springAwsExample.zip
 
 deploy:
   - provider: s3

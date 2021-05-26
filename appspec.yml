@@ -4,3 +4,15 @@ files:
   - source: /
     destination: /home/ec2-user/app/step2/zip/
     overwrite: yes
+
+permissions:
+  - object: / # codedeploy-> ec2 넘긴 배포파일들이 모두 ec2 유저인 ec2-user 권한을 갖도록함
+    pattern: "**"
+    owner: ec2-user
+    group: ec2-user
+
+hooks: # codedeploy 배포단계에서 실행할 명령어 지정
+  ApplicationStart: # applicationstart 단계에서 ec2-user 권한으로 스크립트를 실행하도록 함
+    - location: deploy.sh
+      timeout: 60
+      runas: ec2-user
