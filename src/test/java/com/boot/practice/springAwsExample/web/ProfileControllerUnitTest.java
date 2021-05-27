@@ -41,7 +41,7 @@ public class ProfileControllerUnitTest {
         ProfileController controller = new ProfileController(env);
 
         String profile = controller.profile();
-
+        System.out.println("profile : " + profile);
         assertThat(profile).isEqualTo(expectedProfile);
     }
 

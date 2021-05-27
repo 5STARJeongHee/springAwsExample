@@ -39,8 +39,8 @@ com/boot/practice/springAwsExample/web/ProfileController.java
  com.boot.practice.springAwsExample.web.ProfileController
 com/boot/practice/springAwsExample/config/auth/dto/SessionUser.java
  com.boot.practice.springAwsExample.config.auth.dto.SessionUser
-com/boot/practice/springAwsExample/domain/posts/PostsRepository.java
- com.boot.practice.springAwsExample.domain.posts.PostsRepository
+com/boot/practice/springAwsExample/config/auth/SecurityConfig.java
+ com.boot.practice.springAwsExample.config.auth.SecurityConfig
 com/boot/practice/springAwsExample/service/posts/PostsService.java
  com.boot.practice.springAwsExample.service.posts.PostsService
 com/boot/practice/springAwsExample/config/WebConfig.java
@@ -51,5 +51,5 @@ com/boot/practice/springAwsExample/domain/user/Role.java
  com.boot.practice.springAwsExample.domain.user.Role
 com/boot/practice/springAwsExample/config/auth/LoginUser.java
  com.boot.practice.springAwsExample.config.auth.LoginUser
-com/boot/practice/springAwsExample/config/auth/SecurityConfig.java
- com.boot.practice.springAwsExample.config.auth.SecurityConfig
+com/boot/practice/springAwsExample/domain/posts/PostsRepository.java
+ com.boot.practice.springAwsExample.domain.posts.PostsRepository
