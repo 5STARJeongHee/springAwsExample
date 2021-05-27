@@ -19,7 +19,7 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 group 'com.boot.practice'
-version '1.0.1-SNAPSHOT'
+version '1.0.1-SNAPSHOT-' +new Date().format("yyyyMMddHHmmss") // gradle은 groovy 언어 기반으로 해당 언어의 함수를 사용할 수 있음
 sourceCompatibility = 1.8
 
 repositories {
